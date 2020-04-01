@@ -3,17 +3,17 @@ import "../App.css";
 
 function Home(props) {
   return (
-    <div>
+    <div class="container">
       <div class="home">
         <h2>Welcom to the home page!</h2>
       </div>
       <div class="display-box">
-        <div class="one">one</div>
-        <div class="two">two</div>
-        <div class="three">three</div>
-        <div class="four">four</div>
-        <div class="five">five</div>
-        <div class="six">six</div>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
       </div>
     </div>
   );

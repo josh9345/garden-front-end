@@ -15,6 +15,13 @@ nav.links {
   justify-content: space-around;
   align-items: center;
 }
+.container {
+  margin-top: -20px;
+  width: 100%;
+  height: 100vh;
+  background: url("https://wallpaperaccess.com/full/1276554.jpg");
+  background-position: 50% 50%;
+}
 .home {
   text-align: center;
 }
@@ -30,30 +37,36 @@ nav.links {
 .one {
   width: 100%;
   height: 25vh;
-  background-color: yellow;
+  background: url("https://i.pinimg.com/originals/fe/de/53/fede5307297834cc58c8bfc108d690fd.jpg");
+  background-size: cover;
 }
 .two {
   width: 100%;
   height: 25vh;
-  background-color: orange;
+  background: url("https://lh3.googleusercontent.com/proxy/ZGjEC6rZ9Sq0GASyW7WYhLyOWxUFdfqLPpXfA8DlmiqJUKG6qWV8BUeolZ5sb3lPAM8QQtBhzYhvlYW_BCIIeZQKl-BuTA");
+  background-size: cover;
 }
 .three {
   width: 100%;
   height: 25vh;
-  background-color: red;
+  background: url("https://plantinstructions.com/wp-content/uploads/2018/03/watermelon-radish-plant.jpg");
+  background-size: cover;
 }
 .four {
   width: 100%;
   height: 25vh;
-  background-color: purple;
+  background: url("https://cdn.britannica.com/22/75922-050-D3982BD0/flowers-fruits-garden-strawberry-plant-species.jpg");
+  background-size: cover;
 }
 .five {
   width: 100%;
   height: 25vh;
-  background-color: green;
+  background: url("https://edge.bonnieplants.com/www/uploads/20180920001927/BONNIE_cucumbers_iStock-900811876_1800px.jpg");
+  background-size: cover;
 }
 .six {
   width: 100%;
   height: 25vh;
-  background-color: blue;
+  background: url("https://cdn.britannica.com/27/192227-050-D1B89958/Amaranth.jpg");
+  background-size: cover;
 }
