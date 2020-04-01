@@ -15,10 +15,45 @@ nav.links {
   justify-content: space-around;
   align-items: center;
 }
-.home-header {
-  margin-top: -20px;
+.home {
   text-align: center;
-  background: url("https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  height: 100vh;
-  background-position: 50% 50%;
+}
+.display-box {
+  margin: 0 auto;
+  width: 60%;
+  display: grid;
+  grid-template-areas:
+    "one two three"
+    "four five six";
+  grid-gap: 10px;
+}
+.one {
+  width: 100%;
+  height: 25vh;
+  background-color: yellow;
+}
+.two {
+  width: 100%;
+  height: 25vh;
+  background-color: orange;
+}
+.three {
+  width: 100%;
+  height: 25vh;
+  background-color: red;
+}
+.four {
+  width: 100%;
+  height: 25vh;
+  background-color: purple;
+}
+.five {
+  width: 100%;
+  height: 25vh;
+  background-color: green;
+}
+.six {
+  width: 100%;
+  height: 25vh;
+  background-color: blue;
 }

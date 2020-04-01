@@ -18,7 +18,9 @@ function Navigation(props) {
       <div>
         <input placeholder="search"></input>
         <br />
-        <button>Search</button>
+        <Link to="/results">
+          <button>Search</button>
+        </Link>
       </div>
     </nav>
   );
