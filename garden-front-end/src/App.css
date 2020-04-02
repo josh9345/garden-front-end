@@ -6,7 +6,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 13vh;
-  background: rgb(73, 79, 82);
+  background: rgb(28, 35, 39);
   color: white;
 }
 nav.links {
@@ -24,9 +24,12 @@ nav.links {
 }
 .home {
   text-align: center;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .display-box {
   margin: 0 auto;
+  margin-top: 5%;
   width: 60%;
   display: grid;
   grid-template-areas:
@@ -63,10 +66,35 @@ nav.links {
   height: 25vh;
   background: url("https://edge.bonnieplants.com/www/uploads/20180920001927/BONNIE_cucumbers_iStock-900811876_1800px.jpg");
   background-size: cover;
+  background-position: 50% 50%;
 }
 .six {
   width: 100%;
   height: 25vh;
   background: url("https://cdn.britannica.com/27/192227-050-D1B89958/Amaranth.jpg");
   background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.welcome {
+  color: white;
+}
+.welcomeMessage {
+  color: white;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 150vh;
+}
+.vegieCard {
+  margin: 10px 10px;
+  height: 20%;
+  width: 17%;
+}
+.imageContainer {
+  height: 100%;
+  max-width: 100%;
 }
