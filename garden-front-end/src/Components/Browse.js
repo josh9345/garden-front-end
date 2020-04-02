@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import DescriptionPage from "./DescriptionPage";
 import "../App.css";
 
 class Browse extends Component {
@@ -26,9 +27,10 @@ class Browse extends Component {
   }
   render() {
     let vegieData = this.state.Data.map(item => {
+      let name = item.name;
       return (
         <div className="vegieCard">
-          <Link to="/">
+          <Link to={`/description/${item.name}`}>
             <div
               className="imageContainer"
               style={{
