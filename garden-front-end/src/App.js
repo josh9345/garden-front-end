@@ -6,6 +6,7 @@ import Navigation from "./Components/Navigation";
 import "./App.css";
 import Browse from "./Components/Browse";
 import ResultPage from "./Components/ResultPage";
+import DescriptionPage from "./Components/DescriptionPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/browse" component={Browse} />
         <Route path="/results" component={ResultPage} />
+        <Route path="/description/:name" component={DescriptionPage} />
       </Switch>
     </Router>
   );

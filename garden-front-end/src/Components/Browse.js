@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 class Browse extends Component {
@@ -27,14 +28,16 @@ class Browse extends Component {
     let vegieData = this.state.Data.map(item => {
       return (
         <div className="vegieCard">
-          <div
-            className="imageContainer"
-            style={{
-              background: `url(${item.images}`,
-              backgroundSize: "cover"
-            }}
-          ></div>
-          <div>{item.name}</div>
+          <Link to="/">
+            <div
+              className="imageContainer"
+              style={{
+                background: `url(${item.images}`,
+                backgroundSize: "cover"
+              }}
+            ></div>
+          </Link>
+          <div className="cardInfo">{item.name}</div>
         </div>
       );
     });
