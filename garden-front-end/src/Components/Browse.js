@@ -9,7 +9,7 @@ class Browse extends Component {
     this.state = {
       Data: []
     };
-    let BaseUrl = "http://localhost:8080/vegetables";
+    let BaseUrl = "https://garden-api-1993.herokuapp.com/vegetables";
     let vegie = () => {
       console.log("hello");
       fetch(BaseUrl)

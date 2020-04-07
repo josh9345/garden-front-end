@@ -108,7 +108,31 @@ nav.links {
   width: 100%;
 }
 .DescriptionImage {
-  width: 60%;
-  height: 30vh;
-  background-position: center;
+  padding: 0;
+  margin-right: 0;
+  width: 50%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.7);
+}
+.infoContainer {
+  display: flex;
+  width: 75%;
+}
+.info {
+  width: 45%;
+  list-style: none;
+  position: relative;
+  color: black;
+}
+.listItem {
+  margin-bottom: 15px;
+}
+.instructions {
+  list-style: none;
+}
+.instructionList {
+  margin-bottom: 20px;
 }
