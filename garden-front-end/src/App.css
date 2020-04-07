@@ -87,11 +87,10 @@ nav.links {
   flex-wrap: wrap;
   flex-direction: row;
   margin-left: 15%;
-
   height: 150vh;
 }
 .vegieCard {
-  height: 20%;
+  height: 20vh;
   width: 17%;
   margin: 20px 20px;
   box-shadow: 10px 27px 10px rgba(0, 0, 0, 0.7);
@@ -135,4 +134,19 @@ nav.links {
 }
 .instructionList {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .vegieCard {
+    margin: 10% 22%;
+    width: 45%;
+    height: 30vh;
+  }
+  .cardContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 15%;
+    height: 150vh;
+  }
 }

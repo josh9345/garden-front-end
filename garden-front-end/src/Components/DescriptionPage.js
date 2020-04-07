@@ -10,7 +10,7 @@ class DescriptionPage extends Component {
   componentWillMount() {
     const { name } = this.props.match.params;
 
-    let BaseUrl = "https://garden-api-1993.herokuapp.com/vegetables/name";
+    let BaseUrl = "https://garden-api-1993.herokuapp.com/vegetables/name/";
     fetch(BaseUrl + name)
       .then(res => {
         return res.json();
@@ -23,7 +23,7 @@ class DescriptionPage extends Component {
         console.log(this.state.data);
       });
   }
-  componentWillUpdate() {
+  componentDidUpdate() {
     const { name } = this.props.match.params;
 
     let BaseUrl = "https://garden-api-1993.herokuapp.com/vegetables/name/";
