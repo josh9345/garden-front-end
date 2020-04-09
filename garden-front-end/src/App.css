@@ -46,7 +46,7 @@ nav.links {
 .two {
   width: 100%;
   height: 25vh;
-  background: url("https://lh3.googleusercontent.com/proxy/ZGjEC6rZ9Sq0GASyW7WYhLyOWxUFdfqLPpXfA8DlmiqJUKG6qWV8BUeolZ5sb3lPAM8QQtBhzYhvlYW_BCIIeZQKl-BuTA");
+  background: url("https://cdn.shopify.com/s/files/1/0246/5179/2465/products/HER-ANG01_3_600x.jpg?v=1576885176");
   background-size: cover;
 }
 .three {
@@ -138,9 +138,23 @@ nav.links {
 
 @media screen and (max-width: 650px) {
   .vegieCard {
-    margin: 10% 22%;
-    width: 45%;
+    margin: 10% 14%;
+    width: 60%;
     height: 30vh;
+  }
+  .display-box {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "one two three"
+      "four five six";
+    grid-gap: 10px;
+  }
+  .DescriptionImage {
+    width: 100%;
+    height: 35vh;
   }
   .cardContainer {
     display: flex;
