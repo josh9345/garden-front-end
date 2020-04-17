@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
 
 function Home(props) {
   return (
@@ -14,24 +13,17 @@ function Home(props) {
         </h5>
       </div>
       <div class="display-box">
-        <Link>
-          <div class="one"></div>
-        </Link>
-        <Link>
-          <div class="two"></div>
-        </Link>
-        <Link>
-          <div class="three"></div>
-        </Link>
-        <Link>
-          <div class="four"></div>
-        </Link>
-        <Link>
-          <div class="five"></div>
-        </Link>
-        <Link>
-          <div class="six"></div>
-        </Link>
+        <div class="one"></div>
+
+        <div class="two"></div>
+
+        <div class="three"></div>
+
+        <div class="four"></div>
+
+        <div class="five"></div>
+
+        <div class="six"></div>
       </div>
     </div>
   );
