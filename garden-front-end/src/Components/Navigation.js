@@ -3,7 +3,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 
 const style = {
-  color: "white"
+  color: "white",
 };
 
 class Navigation extends Component {
@@ -11,12 +11,12 @@ class Navigation extends Component {
     super();
 
     this.state = {
-      result: ""
+      result: "",
     };
   }
 
   render() {
-    let searchResult = e => {
+    let searchResult = (e) => {
       e.preventDefault();
 
       let uppercase =
@@ -24,10 +24,10 @@ class Navigation extends Component {
       this.setState({ result: uppercase });
       console.log(uppercase);
     };
-    let handleClick = e => {};
+    let handleClick = (e) => {};
     return (
       <nav>
-        <h3>logo</h3>
+        <h3>TGC</h3>
         <Link style={style} to="/">
           <h5>home</h5>
         </Link>
